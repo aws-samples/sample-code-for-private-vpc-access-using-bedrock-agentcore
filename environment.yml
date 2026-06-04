@@ -1,0 +1,34 @@
+# Conda environment for amazon-ads-custom-mcp-server-agent
+# Cross-platform: works on Linux, macOS, Windows
+#
+# Create:  conda env create -f environment.yml
+# Update:  conda env update -f environment.yml --prune
+# Activate: conda activate ads-mcp-agent
+
+name: ads-mcp-agent
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13
+  - postgresql=17.6
+  - numpy
+  - pip
+  - pip:
+    # MCP Server runtime
+    - mcp
+    - asyncpg
+    - boto3>=1.42.0
+    - botocore>=1.42.0
+    # AgentCore CLI + Runtime
+    - bedrock-agentcore-starter-toolkit
+    - bedrock-agentcore
+    - typer>=0.15.0
+    - click>=8.1.8
+    # LangGraph Agent
+    - langgraph
+    - langchain-aws
+    - langchain-mcp-adapters
+    # Utilities
+    - requests>=2.31.0
+    - pyyaml

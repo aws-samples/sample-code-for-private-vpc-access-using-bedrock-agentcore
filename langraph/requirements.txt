@@ -1,0 +1,7 @@
+langgraph
+langchain-aws
+boto3
+requests
+starlette
+uvicorn
+bedrock-agentcore<=0.1.5
