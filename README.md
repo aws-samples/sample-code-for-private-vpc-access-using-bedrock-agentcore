@@ -1,6 +1,6 @@
 # Accessing Private VPC Resources with AI Agents Using Amazon Bedrock AgentCore
 
-Amazon Ads Campaign MCP Server with LangGraph agent deployed on Amazon Bedrock AgentCore. This project provisions a private VPC with PostgreSQL RDS, deploys an MCP server to AgentCore Runtime with VPC connectivity for campaign data queries, and connects it to a LangGraph agent via AgentCore Gateway with Cognito M2M authentication.
+An Ad Platform Campaign MCP Server with LangGraph agent deployed on Amazon Bedrock AgentCore. This project provisions a private VPC with PostgreSQL RDS, deploys an MCP server to AgentCore Runtime with VPC connectivity for campaign data queries, and connects it to a LangGraph agent via AgentCore Gateway with Cognito M2M authentication.
 
 ---
 
